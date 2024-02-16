@@ -11,7 +11,7 @@ function LandingPage() {
         {["We create","Eye Opening", "presentations"].map((item,index)=>{
           return <div key={item} className=" masker ">
               <div className="w-fit flex items-end overflow-hidden">
-              {index=== 1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}} className="w-[8vw] rounded-lg bg-white mr-5 h-[5.7vw] relative -top-[1vw]"></motion.div>)}
+              {index=== 1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:2}} className="w-[8vw] rounded-lg bg-white mr-5 h-[5.7vw] relative -top-[1vw]"></motion.div>)}
               <h1 className="uppercase pt-[2vw] -mb-[1vw] leading-[.70] h-full font-medium text-[9vw] font-['Founders_Grotesk_X']">{item}</h1>
               </div>
                 
