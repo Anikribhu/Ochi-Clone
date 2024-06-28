@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <div className="backdrop-blur max-sm:h-5 max-md:h-14 fixed z-[999] w-full px-10 py-8 flex font-custom4 justify-between items-center">
-            <div className="logo">
+            <div className="logo max-sm:pt-3">
                 <h1 className=' text-2xl tracking-wider font-semibold'>Anik Mallick</h1>
             </div>
             <div className="max-sm:hidden max-md:hidden links flex gap-10">
