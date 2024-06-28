@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div className="dets mt-10 max-sm:mt-20 font-['Neue_Montreal]">
                     <h1 className='ml-2 text-xl max-sm:text-2xl'>E:</h1>
-                    {["hello@ochi.design"].map((items,index)=><a key={index} className='block m-2  underline'>{items}</a>)}
+                    {["anikmallick28@gmail.com"].map((items,index)=><a key={index} className='block m-2  underline'>{items}</a>)}
                 </div>
             </div>
         </div>

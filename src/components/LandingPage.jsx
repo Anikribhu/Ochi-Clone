@@ -19,9 +19,11 @@ function LandingPage() {
         })}
       </div>
       <div className=" flex font-custom2 justify-between items-center py-5 px-20 border-t-[1px] border-zinc-800 mt-36 max-sm:mt-40 max-sm:inline-block   ">
-        {["For public and private companies", "From the first pitch to IPO"].map((item, index) => (
-          <p key={item} className='max-sm:mt-5 text-lg font-light tracking-tight leading-none'>{item}</p>
-        ))}
+      {["For public and private companies", "From the first pitch to IPO"].map((item, index) => (
+  <p key={item} className='max-sm:mt-5 text-lg font-light tracking-tight leading-none underline-transition'>
+    {item}
+  </p>
+))}
         <div className="max-sm:mt-5 max-sm:-ml-3 button cursor-pointer flex items-center gap-2">
           <div className="px-5 py-2 border-[1px] border-zinc-500 text-[17px] rounded-full uppercase transition-colors ease-linear duration-300 hover:bg-gradient-to-r from-[#171818] to-[#9c9d9ed0]">start the project</div>
           <div className="transition-colors ease-linear duration-300 hover:bg-gradient-to-r from-[#171818] to-[#9c9d9ed0] w-10 h-10 border-[1px] border-zinc-500 flex items-center justify-center rounded-full">
