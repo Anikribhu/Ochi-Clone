@@ -26,7 +26,7 @@ function Featured() {
                             
                         
                         </div> */}
-                        <img className='w-full h-full  bg-cover bg-center' src="https://drive.google.com/file/d/1vWjAmNrgpYktA2y9G39E7w4hnG6dQ_R4/view?usp=sharing" alt="##" />
+                        <img className='w-full h-full  bg-cover bg-center' src="src\assets\gemini_clone.png" alt="##" />
                     </motion.div>
 
                     <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)}  className="card-container  relative rounded-2xl w-1/2 h-[75vh] max-sm:h-[40vh] max-md:h-[60vh] max-sm:w-full max-md:w-full">
