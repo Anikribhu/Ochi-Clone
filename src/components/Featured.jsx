@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { motion, useAnimation } from 'framer-motion'
 import React from 'react'
+import { assets } from '../assets/assets'
 
 function Featured() {
     const cards = [useAnimation(),useAnimation()]
@@ -23,8 +24,9 @@ function Featured() {
                             <motion.span initial={{y:"100%"}} animate={cards[0]} transition={{ease:[0.83, 0, 0.17, 1],delay:index*.06}}  className='inline-block' key={item}>{item}</motion.span>)}</h1>
                         {/* <div className="w-full h-full  rounded-2xl scale-50 overflow-hidden">
                             
+                        
                         </div> */}
-                        <img className='w-full h-full  bg-cover bg-center' src='src\assets\gemini clone.png' alt="" />
+                        <img className='w-full h-full  bg-cover bg-center' src="src\assets\gemini_clone.png" alt="##" />
                     </motion.div>
 
                     <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)}  className="card-container  relative rounded-2xl w-1/2 h-[75vh] max-sm:h-[40vh] max-md:h-[60vh] max-sm:w-full max-md:w-full">
