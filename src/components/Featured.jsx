@@ -26,7 +26,9 @@ function Featured() {
                             
                         
                         </div> */}
-                        <img className='w-full h-full  bg-cover bg-center' src="src\assets\gemini_clone.png" alt="##" />
+                        <a target='blank' href="https://gemini-clone-gules-three.vercel.app/">
+                        <img className='w-full h-full  object-contain' src="https://bulksignature.com/wp-content/uploads/2024/02/Frame-876-1024x569.png" alt="##" />
+                        </a>
                     </motion.div>
 
                     <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)}  className="card-container  relative rounded-2xl w-1/2 h-[75vh] max-sm:h-[40vh] max-md:h-[60vh] max-sm:w-full max-md:w-full">
