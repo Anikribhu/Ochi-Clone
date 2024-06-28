@@ -11,8 +11,8 @@ function LandingPage() {
         {["I create", "Eye catching", "web designs"].map((item, index) => {
           return <div key={item} className=" masker ">
             <div className="w-fit flex items-end overflow-hidden">
-              {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: "10vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 2 }} className="w-[8vw] max-sm:h-[18vw]  max-sm:-top-[2vw]  rounded-lg bg-white mr-5 h-[5.7vw] relative -top-[1vw]"></motion.div>)}
-              <h1 className="uppercase pt-[2vw] mb-[1vw] leading-[.70] h-full font-medium max-sm:text-[12vw] max-sm:leading-[.85] text-[9vw] font-custom">{item}</h1>
+              {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: "10vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 2 }} className="w-[8vw] max-sm:h-[18vw]   max-sm:-top-[2vw]  rounded-lg bg-white mr-5 h-[5.7vw] relative -top-[1vw]"></motion.div>)}
+              <h1 className="uppercase pt-[2vw] mb-[1vw] leading-[.70] h-full font-medium max-sm:text-[12vw] max-sm:leading-[1.1] text-[9vw] font-custom">{item}</h1>
             </div>
 
           </div>
