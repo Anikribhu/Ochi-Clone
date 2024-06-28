@@ -17,7 +17,7 @@ function App() {
 
 
   return (
-    <div className=' w-full min-h-screen bg-zinc-900 text-white'>
+    <div className='overflow-x-scroll no-scrollbar w-full min-h-screen bg-zinc-900  text-white'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>

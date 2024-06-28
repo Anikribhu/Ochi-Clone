@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        custom:["Playwrite IT Moderna"],
+        custom2:["Montserrat"],
+        custom3:["Playwrite NO"],
+        custom4:["Playwrite NG Modern"]
+      },
+    },
   },
   plugins: [],
 }

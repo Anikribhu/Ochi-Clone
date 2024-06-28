@@ -6,7 +6,7 @@ import DropdownRender from './dropdown'
 function Navbar() {
 
     return (
-        <div className="backdrop-blur max-sm:h-5 max-md:h-14 fixed z-[999] w-full px-10 py-8 font-['Neue_Montreal'] flex justify-between items-center">
+        <div className="backdrop-blur max-sm:h-5 max-md:h-14 fixed z-[999] w-full px-10 py-8 font-custom2 flex font-custom4 justify-between items-center">
             <div className="logo">
                 <h1 className=' text-2xl tracking-wider font-semibold'>Anik Mallick</h1>
             </div>

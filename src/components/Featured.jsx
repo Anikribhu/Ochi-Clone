@@ -14,7 +14,7 @@ function Featured() {
     return (
         <div className="w-full py-20">
             <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-20">
-                <h1 className="text-7xl font-['Neue_Montreal'] tracking-tight max-sm:tracking-normal">My Hand-Made Projects</h1>
+                <h1 className="text-7xl font-custom4 tracking-tight max-sm:tracking-normal">My Hand-Made Projects</h1>
             </div>
             <div className="px-20 max-sm:px-10">
                 <div className="cards w-full  max-sm:flex-col max-md:flex-col flex gap-10 pt-10">
