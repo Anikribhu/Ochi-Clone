@@ -40,7 +40,7 @@ function Featured2() {
             >
               <img
                 className="w-full h-full object-contain"
-                src="src\assets\award website.png"
+                src="https://assets.awwwards.com/awards/element/2023/05/646866fdcb69a649837017.png"
                 alt="##"
               />
             </a>
