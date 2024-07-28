@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion, useAnimation } from "framer-motion";
 import React from "react";
-import { assets } from "../assets/assets";
 
 function Featured() {
   const cards = [useAnimation(), useAnimation()];
