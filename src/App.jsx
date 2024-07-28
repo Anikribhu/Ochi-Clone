@@ -9,6 +9,7 @@ import Featured from './components/Featured';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import LocomotiveScroll from 'locomotive-scroll';
+import Featured2 from './components/Featured2';
 
 function App() {
 
@@ -17,13 +18,14 @@ function App() {
 
 
   return (
-    <div className='overflow-x-scroll no-scrollbar w-full min-h-screen bg-zinc-900  text-white'>
+    <div className='overflow-x-scroll w-full no-scrollbar max-sm:overflow-x-hidden min-h-screen bg-zinc-900  text-white'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>
       <About/>
       <Eyes/>
       <Featured/>
+      <Featured2/>
       {/* <Cards/> */}
       <Footer/>
     </div>

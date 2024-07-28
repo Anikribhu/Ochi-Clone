@@ -3,15 +3,19 @@ import { motion } from 'framer-motion';
 import React from 'react'
 import { FaArrowUpLong } from "react-icons/fa6";
 
+
+
 function LandingPage() {
+
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 pt-1
     '>
       <div className="px-20 max-sm:px-8 textstructure mt-48 ">
-        {["I create", "Eye catching", "web designs"].map((item, index) => {
+        {["I create", "Eye Catching", "web designs"].map((item, index) => {
           return <div key={item} className=" masker ">
             <div className="w-fit flex items-end overflow-hidden">
-              {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: "10vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 2 }} className="w-[8vw] max-sm:h-[18vw]   max-sm:-top-[2vw]  rounded-lg bg-white mr-5 h-[5.7vw] relative -top-[1vw]"></motion.div>)}
+              {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: '10vw' }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 2 }} className="w-[9vw] max-sm:h-[24vw] max-sm:-top-[2vw]  rounded-lg bg-[#CDEA68] mr-5 h-[6.5vw] relative -top-[1vw]"></motion.div>)}
+
               <h1 className="uppercase pt-[2vw] mb-[1vw] leading-[.70] h-full font-medium max-sm:text-[12vw] max-sm:leading-[1.1] text-[9vw] font-custom">{item}</h1>
             </div>
 
