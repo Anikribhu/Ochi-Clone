@@ -30,7 +30,7 @@ function Featured() {
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={cards[0]}
-                  transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.06 }}
+                  transition={{ ease: [0.33, 1, 0.68, 1], delay: index * 0.06 }}
                   className="inline-block max-md:invisible max-sm:invisible"
                   key={item}
                 >
@@ -65,7 +65,7 @@ function Featured() {
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={cards[1]}
-                  transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.06 }}
+                  transition={{ ease: [0.33, 1, 0.68, 1], delay: index * 0.06 }}
                   className="inline-block max-md:invisible max-sm:invisible"
                   key={item}
                 >

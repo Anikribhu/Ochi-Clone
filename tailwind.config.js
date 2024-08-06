@@ -10,7 +10,8 @@ export default {
         custom:["Playwrite IT Moderna"],
         custom2:["Montserrat"],
         custom3:["Playwrite NO"],
-        custom4:["Playwrite NG Modern"]
+        custom4:["Playwrite NG Modern"],
+        custom5:["Rubik"]
       },
     },
   },
