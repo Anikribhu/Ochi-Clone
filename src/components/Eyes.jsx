@@ -22,7 +22,7 @@ function Eyes() {
       <div
         data-scroll
         data-scroll-section
-        data-scroll-speed="-.7"
+        data-scroll-speed="-.3"
         className=" relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]"
       >
         <div className="absolute flex gap-10  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">

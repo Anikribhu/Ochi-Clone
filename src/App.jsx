@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className='overflow-x-scroll w-full no-scrollbar max-sm:overflow-x-hidden min-h-screen bg-zinc-900  text-white'>
+    <div className='overflow-x-scroll w-full no-scrollbar max-sm:overflow-x-hidden  bg-zinc-900  text-white'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>
